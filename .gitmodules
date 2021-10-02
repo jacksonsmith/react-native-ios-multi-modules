@@ -1,0 +1,3 @@
+[submodule "FirstModule/Pod"]
+	path = FirstModule/Pod
+	url = https://github.com/jacksonsmith/residencia-first-module

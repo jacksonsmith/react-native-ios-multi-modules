@@ -1,0 +1,66 @@
+{
+  "name": "FirstModule",
+  "version": "0.1.0",
+  "summary": "A short description of FirstModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jackson/FirstModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jackson": "jackson.smith@sanar.com"
+  },
+  "source": {
+    "git": "https://github.com/Jackson/FirstModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ios/*.{c,h,m,mm,cpp,js,swift}",
+  "dependencies": {
+    "React-Core": [
+      "0.65.1"
+    ],
+    "React-Core/DevSupport": [
+      "0.65.1"
+    ],
+    "React-Core/RCTWebSocket": [
+      "0.65.1"
+    ],
+    "React-RCTActionSheet": [
+      "0.65.1"
+    ],
+    "React-RCTAnimation": [
+      "0.65.1"
+    ],
+    "React-RCTBlob": [
+      "0.65.1"
+    ],
+    "React-RCTImage": [
+      "0.65.1"
+    ],
+    "React-RCTLinking": [
+      "0.65.1"
+    ],
+    "React-RCTNetwork": [
+      "0.65.1"
+    ],
+    "React-RCTSettings": [
+      "0.65.1"
+    ],
+    "React-RCTText": [
+      "0.65.1"
+    ],
+    "React-RCTVibration": [
+      "0.65.1"
+    ]
+  },
+  "resource_bundles": {
+    "FirstModule": [
+      "ios/Assets/*.png",
+      "ios/*.js"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+
+target 'core-app' do
+  config = use_native_modules!
+  reactNativePath = "../node_modules/react-native/"
+  puts config
+  
+  use_react_native!(
+    :path => reactNativePath,
+    :hermes_enabled => false
+  )
+  
+  use_frameworks!
+
+  # Pods for core-app
+  
+  pod 'FirstModule', :path => '../FirstModule/'
+  pod 'SecondModule', :path => '../SecondModule/'
+
+
+  target 'core-appTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'core-appUITests' do
+    # Pods for testing
+  end
+
+end
